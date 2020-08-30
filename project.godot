@@ -16,6 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Shooter-Prototype"
+run/main_scene="res://Maps/TestMap.tscn"
 config/icon="res://icon.png"
 
 [rendering]
