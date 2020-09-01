@@ -2,10 +2,10 @@ extends Spatial
 
 var body_to_move : KinematicBody = null
 
-export var move_acceleration = 4
-export var max_speed = 20
+export var move_acceleration = 5
+export var max_speed = 32
 var drag = 0.0
-export var jump_force = 30
+export var jump_force = 25
 export var gravity = 60
 
 var pressed_jump = false
@@ -38,7 +38,7 @@ func _physics_process(delta):
 		cur_move_vector = cur_move_vector.rotated(Vector3.UP, body_to_move.rotation.y)
 	velocity += move_acceleration * cur_move_vector - velocity * Vector3(drag, 0, drag) + gravity * Vector3.DOWN * delta
 	velocity = body_to_move.move_and_slide_with_snap(velocity, snap_vector, Vector3.UP)
-
+	
 	var grounded = body_to_move.is_on_floor()
 	if grounded:
 		velocity.y = -0.01
