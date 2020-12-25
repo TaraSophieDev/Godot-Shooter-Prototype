@@ -4,7 +4,7 @@
 [ext_resource path="res://assets/VertexColorShader.tres" type="Material" id=2]
 
 [sub_resource type="BoxShape" id=1]
-extents = Vector3( 0.72362, 0.697465, 1 )
+extents = Vector3( 0.72362, 0.597498, 0.590378 )
 
 [node name="BonsaiTree" instance=ExtResource( 1 )]
 
@@ -15,5 +15,5 @@ material/0 = ExtResource( 2 )
 [node name="StaticBody" type="StaticBody" parent="Tree" index="0"]
 
 [node name="CollisionShape" type="CollisionShape" parent="Tree/StaticBody" index="0"]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.177075, -0.321875, 0 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.177075, -0.498634, 0.166295 )
 shape = SubResource( 1 )
