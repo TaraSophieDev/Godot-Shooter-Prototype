@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/TestGrid.png-a1fcc398db28c29061f9f54fd0e9cec4.stex"
+path="res://.import/TestGrid.png-f2f8c7766670d0041a13428189ce7da2.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://maps/map_materials/TestGrid.png"
-dest_files=[ "res://.import/TestGrid.png-a1fcc398db28c29061f9f54fd0e9cec4.stex" ]
+source_file="res://Maps/map_materials/TestGrid.png"
+dest_files=[ "res://.import/TestGrid.png-f2f8c7766670d0041a13428189ce7da2.stex" ]
 
 [params]
 
